@@ -1,177 +1,127 @@
-# Awesome-Cloud-Backup-Recovery
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Backup &amp; Recovery Banner" width="100%" />
+</p>
 
-I need to be direct with you one more time: **I cannot access your `README.md` file, and I have no tools to create files, run `git`, or push to GitHub.** The `@README.md` reference only works inside your IDE, not in this conversation. Every "commit and push" instruction across this session has been unexecutable on my end.
+# Awesome Cloud Backup & Recovery ☁️ 🛡️ 💾
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Recovery"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Backup-Recovery?style=social" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Recovery/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Backup-Recovery?style=social" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-What I can do is give you the **complete, ready-to-paste README.md**. Here it is.
-
-
+**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
+*Focused on Enterprise Cloud Backup, Disaster Recovery (DR), Ransomware Protection, Zero-Trust Storage & Data Resilience*
 
 ---
 
+## 🚀 Overview & Key Highlights
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Backup & Recovery**. These tools help organizations protect workloads across on-premises, cloud-native, and SaaS environments—from Virtual Machine (VM) backup and Kubernetes disaster recovery to Microsoft 365, Google Workspace, and cloud object storage protection.
 
-# Awesome-Cloud-Backup-Recovery
+- **Enterprise Commercial SaaS Leaders**: Managed enterprise solutions offering centralized management consoles, automated SLAs, immutable zero-trust backups, ransomware detection, and compliance governance.
+- **Production-Grade Open-Source Tools**: High-performance CLI and GUI tools featuring client-side encryption, lock-free deduplication, and Bring Your Own Storage (BYOS) support for S3, Azure Blob, and Backblaze B2.
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Cloud Backup, Disaster Recovery, Ransomware Protection & Data Resilience*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Backup & Recovery**. These tools help organizations protect workloads across on-premises, cloud, and SaaS environments—from VM backup and Kubernetes disaster recovery to Microsoft 365 and Google Workspace data protection.
-
-
-
-**Examples** include Azure Backup, AWS Backup, Veeam Cloud Connect, Druva inSync, Rubrik, Cohesity DataProtect, Commvault Cloud, Acronis Cyber Protect, Backblaze B2, and HYCU (the category leaders).
-
-
-
-**Open-source emphasis**: Cloud backup & recovery has an **exceptionally mature and production-proven open-source ecosystem**. **Restic** and **Kopia** lead in encrypted, deduplicated cloud backups with BYOS (Bring Your Own Storage) support for S3, B2, and Azure . **BorgBackup** dominates Linux server and homelab backup with efficient deduplication . **Duplicati** provides a web-based interface for less terminal-inclined users . **UrBackup** handles multi-machine fleets with both file and image backups . This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## 📖 Table of Contents
 
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🤝 How to Contribute](#-how-to-contribute)
-
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global cloud backup and recovery market is estimated at **~$15.6B in 2026**, growing toward **~$38.5B by 2031** at a **~19.8% CAGR** (Mordor Intelligence / MarketsandMarkets estimates). The sector is **moderately concentrated** at the enterprise tier — Veeam, Cohesity (post-merger), Rubrik, and Commvault form the top tier of enterprise backup vendors, each with **$1.2B–$2.0B in backup-specific revenue** . The Microsoft 365 backup segment alone represents a **$1.9B market** in 2026, with Veeam leading at **~$330M M365 ARR** ahead of Rubrik ($160M), Commvault ($130M), and Cohesity ($110M) . No single vendor holds a winner-take-all position; enterprise buyers typically run multi-vendor stacks for different workloads.
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Veeam Cloud Connect](https://www.veeam.com/)** | Multi-tenant platform for service providers offering off-site backup and DRaaS. Licensed per protected workload (PPU). | **Per workload PPU**: Cloud Connect VM **5 points** (subscription/perpetual) or **free** (rental); Replica **10 points**; Workstation **3 points** . Service providers set end-user pricing. Selectel offers **14-day free trial** . | **Free for service providers** to deploy (Veeam Cloud Connect license file required). End-users pay through their VCSP partner. **Trial**: 14 days via Selectel . | **~$2.0B backup revenue, ~22.7% leading vendor share**  |
-
-| **[Rubrik](https://www.rubrik.com/)** | Zero trust data security platform with immutable backups and ransomware recovery. RSC platform and data security SaaS. | **Custom enterprise pricing** — quote required. Rubrik reports **$1.32B audited fiscal total** (FY2026) . | **None** — enterprise demo required. | **$1.57B backup-specific revenue estimate, $1.32B audited fiscal total**  |
-
-| **[Cohesity DataProtect](https://www.cohesity.com/)** | Unified data protection for relational and distributed databases. Post-merger with Veritas Enterprise Data Protection. | **Custom enterprise pricing** — quote required. AFI.ai estimates **~$2.0B total backup revenue** . | **None** — enterprise demo required. | **$5–10B valuation, $1–5B revenue (FY2026 est.)**  |
-
-| **[Commvault Cloud](https://www.commvault.com/)** | Enterprise data protection with IntelliSnap. Cloud-native SaaS platform. | **Custom enterprise pricing** — quote required. Commvault reports **$1,184M total revenue** (FY2026, +19% YoY) . | **None** — enterprise demo required. | **$1.18B revenue (FY2026), SaaS revenue $333M (+52% YoY)**  |
-
-| **[Acronis Cyber Protect](https://www.acronis.com/)** | Cyber protection platform combining backup, disaster recovery, and cybersecurity. | **Standard**: From **~$85/year** (up to 5 devices); **Backup Advanced**: From **~$109/year**; **Advanced**: From **~$129/year** . Service provider pricing: Server **€31.20/month**, VM **€8.84/month**, Workstation **€4.42/month** . | **30-day free trial** available. No perpetual free tier for consumers. | **Private (Acronis est. ~$500M+ revenue)** |
-
-| **[Backblaze B2](https://www.backblaze.com/cloud-storage)** | Always-hot cloud storage for backup and recovery. S3-compatible. | **Storage**: **$6.95/TB/month** (updated from $6/TB effective May 2026) . **Egress**: Free up to **3x monthly average storage**; overage **$0.01/GB** . **API calls**: **Free** for all B2 customers . | **First 10 GB storage always free** . No minimum file size or storage duration fees. | **Public (BLZE), ~$100M+ revenue est.** |
-
-| **[Azure Backup](https://azure.microsoft.com/en-us/products/backup/)** | Microsoft's cloud backup service for Azure VMs, on-premises servers, and M365. | **Azure VM**: From **~$10/VM/month** (standard tier); **MARS agent**: From **~$25/server/month**. **M365 Backup**: From **~$1.80/user/month** (via Microsoft 365 Backup). | **Azure free tier**: 10 GB backup storage free for **12 months** (new accounts only). No perpetual free tier. | **~$281B revenue (Microsoft FY2025)** |
-
-| **[AWS Backup](https://aws.amazon.com/backup/)** | Centralized backup for AWS services. Supports EBS, RDS, EFS, DynamoDB, and more. | **Warm storage**: **$0.05/GB/month**; **Cold storage**: **$0.01/GB/month**. **Restore**: $0.02/GB. **Cross-region copy**: additional $0.02/GB. | **AWS Free Tier**: 100 GB warm storage free for **12 months** (new accounts only). No perpetual free tier. | **~$638B revenue (Amazon FY2025)** |
-
-| **[Druva inSync](https://www.druva.com/)** | Cloud-native data protection for endpoints, SaaS applications, and cloud workloads. | **Custom enterprise pricing** — quote required. Reported entry contracts start at **~$8–12/user/month** for endpoint backup. | **None** — enterprise demo required. | **Private, ~$2B valuation est., $500M+ raised** |
-
-| **[HYCU](https://www.hycu.com/)** | Purpose-built backup and recovery for Nutanix, VMware, and cloud workloads. | **Custom enterprise pricing** — quote required. Reported entry contracts start at **~$500–1,000/socket/year** for VMware. | **Free trial available** (details require sales contact). | **Private, ~$100M+ raised** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|---|---|---|
-
-| **[Restic](https://github.com/restic/restic)** — Fast, efficient, secure open-source backup program. Encryption, deduplication, snapshots, and multiple storage backends including local, SFTP, REST, and S3-compatible stores. **BYOS** (S3, B2, SFTP, and more) . BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) | ~28,000 |
-
-| **[BorgBackup](https://github.com/borgbackup/borg)** — Deduplicating backup program with authenticated encryption and compression. Optimized for Unix-like systems. Can mount repository as regular filesystem. **Local/SSH only** — cloud needs extra tooling . BSD-3-Clause. | [![Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) | ~13,500 |
-
-| **[Kopia](https://github.com/kopia/kopia)** — Cross-platform backup tool with lock-free deduplication, encryption, snapshots, and pruning. **BYOS** (S3, B2, Azure, SFTP) . Apache-2.0. Used by Kanister for Kubernetes data protection. | [![Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) | ~8,500 |
-
-| **[Duplicati](https://github.com/duplicati/duplicati)** — Free, open-source backup solution offering zero-trust, fully encrypted backups. **Web-based interface**. Supports local drives, network storage, and cloud services . LGPL-2.1. | [![Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) | ~12,000 |
-
-| **[Duplicacy](https://github.com/gilbertchen/duplicacy)** — A lock-free deduplication cloud backup tool. Supports B2, S3, Wasabi, and more. **Paid** (free for personal use) . | [![Stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers) | ~5,500 |
-
-| **[UrBackup](https://github.com/uroni/urbackup_backend)** — Open-source client/server backup system for multiple machines. **File + image backups** (mainly Windows clients). **Local/network storage only** — no cloud . | [![Stars](https://img.shields.io/github/stars/uroni/urbackup_backend?style=social&color=white)](https://github.com/uroni/urbackup_backend/stargazers) | ~3,500 |
-
-| **[Backrest](https://github.com/garethgeorge/backrest)** — Web UI and orchestrator for Restic backup. Docker container built on top of Restic. **Docker-native** with scheduling and monitoring . | [![Stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers) | ~2,800 |
-
-| **[Déjà Dup](https://gitlab.gnome.org/World/deja-dup)** — GNOME desktop backup tool with Restic backend. Built into most GNOME-based distros. **User-friendly GUI** — no terminal required . | [![Stars](https://img.shields.io/github/stars/GNOME/deja-dup?style=social&color=white)](https://github.com/GNOME/deja-dup/stargazers) | ~1,200 |
-
-| **[Rclone](https://github.com/rclone/rclone)** — Command-line program to manage files on cloud storage. Supports **31+ cloud services** including S3, B2, Google Drive, and more. Can be used for backup with `--backup` flag . MIT. | [![Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) | ~52,000 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|---|---|
-
-| **[Borgmatic](https://github.com/borgmatic-collective/borgmatic)** — Simple, configuration-driven backup software for BorgBackup. YAML-based config for scheduling and remote repositories . | [![Stars](https://img.shields.io/github/stars/borgmatic-collective/borgmatic?style=social&color=white)](https://github.com/borgmatic-collective/borgmatic/stargazers) |
-
-| **[Velero](https://github.com/vmware-tanzu/velero)** — Kubernetes backup and disaster recovery. **The most mature open-source K8s backup tool**. Persistent volume snapshots, selective restores, scheduled backups . | [![Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers) |
-
-| **[Kanister](https://github.com/kanisterio/kanister)** — CNCF sandbox project for application-level data management on Kubernetes. Originally created by Veeam Kasten team. Pre-built blueprints for AWS RDS, Cassandra, MongoDB, PostgreSQL . | [![Stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) |
-
-| **[Stash](https://github.com/stashed/stash)** — Declarative, GitOps-native Kubernetes backup alternative to Velero. Uses Restic for backups. CRDs define what to back up, where, and how often . | [![Stars](https://img.shields.io/github/stars/stashed/stash?style=social&color=white)](https://github.com/stashed/stash/stargazers) |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud backup & recovery platforms handle sensitive organizational data; ensure compliance with data protection regulations and internal security policies.
-
-- **Open-source reality**: The open-source ecosystem for cloud backup is **exceptionally mature and production-proven**. **Restic** and **Kopia** lead in encrypted, deduplicated cloud backups with BYOS support for S3, B2, and Azure . **BorgBackup** dominates Linux server and homelab backup . **Duplicati** provides a web-based interface for less terminal-inclined users . **UrBackup** handles multi-machine fleets . **Backrest** delivers a Docker-native web UI for Restic . **Déjà Dup** brings Restic to GNOME desktop users . **Rclone** manages 31+ cloud services for backup workflows . However, **commercial platforms** (Veeam, Rubrik, Cohesity, Commvault, Acronis) provide **unified management consoles, application-aware recovery at scale, ransomware detection, and enterprise SLAs** that open-source alternatives require significant integration and engineering investment to match. The open-source path is **genuinely viable** for organizations with strong infrastructure engineering capacity or for specific workloads (Linux servers, Kubernetes, desktop files).
-
-
 
 ---
 
+## ☁️ SaaS/Hosted Platforms
 
+> **📊 Market Context & Sector Structure**: The global cloud backup and recovery market is estimated at **~$15.6B in 2026**, growing toward **~$38.5B by 2031** at a **~19.8% CAGR** (Mordor Intelligence / MarketsandMarkets estimates). The enterprise tier is **moderately concentrated**—dominated by top-tier vendors like AWS, Microsoft, Veeam, Cohesity (post-Veritas EDP merger), Rubrik, and Commvault. The market features high barrier-to-entry enterprise suites alongside high-growth SaaS offerings, while avoiding a winner-take-all monopoly due to diverse multi-cloud and hybrid workload requirements.
 
-**Made for infrastructure engineers, backup administrators, SREs, and data protection teams.**
+SaaS products below are sorted by **Company Size / Valuation (Descending)**:
 
-Let's make cloud backup & recovery more open, transparent, and resilient.
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size / Valuation |
+|:---|:---|:---|:---|:---|
+| **[AWS Backup](https://aws.amazon.com/backup/)** ☁️ | Centralized backup service for AWS services (EBS, RDS, EFS, DynamoDB, S3, EC2). | **Warm storage**: **$0.05/GB/month** (EBS/EFS); **Cold storage**: **$0.01/GB/month**. Restore: **$0.02/GB**. | **100 GB warm storage free for 12 months** (via AWS Free Tier); no perpetual free tier. | **~$638B revenue (Amazon FY2025)** |
+| **[Azure Backup](https://azure.microsoft.com/en-us/products/backup/)** 🔷 | Microsoft's enterprise cloud backup service for Azure VMs, SQL, SAP HANA, on-prem servers, and M365. | **Azure VM**: From **$5/month** (instance fee for VM < 50GB) + storage ($0.0224/GB/mo); **M365 Backup**: **$0.15/GB/month**. | **10 GB backup storage free for 12 months** (via Azure Free Account); no perpetual free tier. | **~$281B revenue (Microsoft FY2025)** |
+| **[Cohesity DataProtect](https://www.cohesity.com/)** 🛡️ | Unified data protection and cyber resilience for databases, VMs, and SaaS. Post-merger with Veritas EDP. | **DataProtect SaaS**: From **~$29,100/year** (10 BETB entry pack on AWS Marketplace); **On-prem**: **~$150–$400/TB/year**. | **30-day free trial** available (DPaaS virtual edition request via sales). | **$5B–$10B valuation est., $1B–$5B combined revenue** |
+| **[Veeam Cloud Connect](https://www.veeam.com/)** ⚡ | Multi-tenant backup and DRaaS platform for service providers and hybrid cloud enterprises. | **Veeam Universal License (VUL)**: From **~$180/workload/year** ($15/workload/month, 10-pack min). | **Free forever up to 10 workloads** (Veeam Community Edition); unlimited ad-hoc VeeamZIP backups. | **~$2.0B backup revenue, ~22.7% leading market share** |
+| **[Rubrik](https://www.rubrik.com/)** 🔐 | Zero Trust Data Security platform providing cyber recovery, immutable backups, and data governance. | **Foundation Edition list**: From **~$130/BETB/month**; **Business Edition**: **~$163/BETB/month**. Quote required. | **30-day free trial** (M365 up to 500 users / 10TB; Google Workspace up to 10 users / 500GB). | **$1.57B backup revenue est., $1.32B audited total (FY2026)** |
+| **[Commvault Cloud](https://www.commvault.com/)** 🏢 | Enterprise cloud-native data protection SaaS platform powered by Metallic AI engine. | **M365 Backup**: From **$1.70/user/month**; **Endpoint**: From **$7.50/user/month**; **File/Object**: From **$58.50/TB/month**. | **30-day free trial** (includes **30,000 trial credits** on cloud marketplaces). | **$1.18B total revenue (FY2026), SaaS ARR $333M (+52% YoY)** |
+| **[Acronis Cyber Protect](https://www.acronis.com/)** 🛡️ | All-in-one cyber protection combining cloud backup, disaster recovery, and endpoint security. | **Standard**: From **~$85/year** (up to 5 devices); **Advanced**: From **~$129/year**. MSP per-device: **€4.42/month** (workstation). | **30-day free trial** available (full feature evaluation, no perpetual consumer free tier). | **Private (Acronis est. ~$500M+ revenue, $3.5B+ valuation)** |
+| **[Druva inSync](https://www.druva.com/)** ☁️ | Cloud-native 100% SaaS data protection for endpoints, Microsoft 365, Google Workspace, and Salesforce. | **Endpoint/SaaS**: Enterprise plans start at **~$8–$12/user/month** (typical entry commitment); quote required. | **30-day free trial** (extendable up to 60 days; full feature access, no credit card required). | **Private (~$2B valuation est., $500M+ raised)** |
+| **[Backblaze B2](https://www.backblaze.com/cloud-storage)** 📦 | Low-cost, high-performance S3-compatible cloud object storage for backups and archive retention. | **Storage**: **$6.95/TB/month** ($0.00695/GB/month). **Egress**: Free up to **3x monthly avg storage**, then **$0.01/GB**. API calls: **Free**. | **First 10 GB storage free forever**; 1,000 Class A & 10,000 Class B API calls/day free. | **Public (NASDAQ: BLZE), ~$100M+ ARR** |
+| **[HYCU](https://www.hycu.com/)** 🔌 | Purpose-built Multi-Cloud & SaaS Data Protection as a Service (R-Cloud platform). | **Starter Bundle**: From **$5,000/year** (<100 employees, up to 50 VMs / 10TB data / 100 SaaS users). | **14-day free trial** for Azure SaaS; **30-day trial** for enterprise/R-Cloud modules. | **Private (~$100M+ raised)** |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Cloud backup & recovery features a mature, production-proven open-source ecosystem. Projects below are sorted by **GitHub Star Count (Descending)**:
+
+| Repo | Description | Stars |
+|:---|:---|:---:|
+| **[Rclone](https://github.com/rclone/rclone)** 🚀 | "rsync for cloud storage" — command-line tool managing files across 70+ cloud providers (S3, B2, GCS, Azure, Drive). Supports encryption, caching, and mount. MIT. | [![Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) |
+| **[Restic](https://github.com/restic/restic)** 🔒 | Fast, secure, deduplicating backup program using AES-256 encryption. BYOS support for S3, B2, Azure Blob, SFTP, and local storage. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) |
+| **[BorgBackup](https://github.com/borgbackup/borg)** 📦 | Deduplicating backup program with authenticated encryption and compression. Optimized for Linux servers and homelabs. BSD-3-Clause. | [![Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) |
+| **[Duplicati](https://github.com/duplicati/duplicati)** 🌐 | Free, open-source backup client with web-based GUI. Features zero-trust AES-256 encryption, incremental backups, and cloud storage sync. LGPL-2.1. | [![Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) |
+| **[Velero](https://github.com/vmware-tanzu/velero)** ☸️ | Industry-standard Kubernetes backup, restore, and disaster recovery tool for cluster resources and persistent volumes. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers) |
+| **[Kopia](https://github.com/kopia/kopia)** ⚡ | Fast and secure open-source backup tool with lock-free deduplication, client-side encryption, and CLI/GUI interfaces. BYOS supported. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) |
+| **[Duplicacy](https://github.com/gilbertchen/duplicacy)** 🔑 | Lock-free cross-computer deduplication backup engine. Supports S3, B2, Wasabi, GCS, and Azure Blob. Free for personal use. | [![Stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers) |
+| **[UrBackup](https://github.com/uroni/urbackup_backend)** 🖥️ | Client/server Open Source backup system combining file and image backups for Windows, Linux, and macOS endpoints. GPL-3.0. | [![Stars](https://img.shields.io/github/stars/uroni/urbackup_backend?style=social&color=white)](https://github.com/uroni/urbackup_backend/stargazers) |
+| **[Backrest](https://github.com/garethgeorge/backrest)** 🐳 | Docker-native Web UI orchestrator and web interface for Restic backups with built-in cron scheduling and health monitoring. GPL-3.0. | [![Stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers) |
+| **[Borgmatic](https://github.com/borgmatic-collective/borgmatic)** ⚙️ | Simple, declarative YAML configuration-driven wrapper for BorgBackup with automated database hooks (PostgreSQL, MySQL). GPL-3.0. | [![Stars](https://img.shields.io/github/stars/borgmatic-collective/borgmatic?style=social&color=white)](https://github.com/borgmatic-collective/borgmatic/stargazers) |
+| **[Kanister](https://github.com/kanisterio/kanister)** 🪣 | CNCF sandbox project for application-level data management on Kubernetes with pre-built blueprints for PostgreSQL, MySQL, and MongoDB. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) |
+| **[Stash](https://github.com/stashed/stash)** ⚓ | Cloud-native, GitOps-friendly Kubernetes backup and restore operator powered by Restic. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/stashed/stash?style=social&color=white)](https://github.com/stashed/stash/stargazers) |
+| **[Déjà Dup](https://gitlab.gnome.org/World/deja-dup)** 🐧 | Simple desktop backup utility integrated into GNOME desktop environments, backed by Restic/Duplicity engine. GPL-3.0. | [![Stars](https://img.shields.io/github/stars/GNOME/deja-dup?style=social&color=white)](https://github.com/GNOME/deja-dup/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Please follow these simple steps:
+
+1. **Fork** the repository.
+2. **Add/Edit** entries in `README.md` following the established table structure.
+3. Ensure entries include product name, official website/repo link, clear description, pricing tier, and free limits.
+4. **Submit a Pull Request** with a concise description of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your infrastructure engineering, SRE workflows, or backup administration, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it!
+- 🔀 **Fork** and share with your DevOps/Infra team.
+- ☕ **Buy me a coffee**: Support open-source curation on GitHub Sponsors:
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-Sponsor%20me%20on%20GitHub-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+Thank you for supporting open-source software and transparent cloud tooling! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Backup-Recovery&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Backup-Recovery&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational purposes and does not represent a commercial endorsement.
+- Ensure strict compliance with local data sovereignty laws (GDPR, HIPAA, SOC 2) when provisioning cloud backup solutions.
+- Commercial SaaS solutions provide managed SLAs, single-pane governance, and ransomware monitoring, whereas open-source tools offer BYOS independence with zero licensing cost but require custom operational management.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Infrastructure Engineers, SREs, Systems Administrators &amp; Data Protection Teams.</b>
+</p>
