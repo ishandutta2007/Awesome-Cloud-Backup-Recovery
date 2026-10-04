@@ -59,9 +59,9 @@ SaaS products below are sorted by **Company Size / Valuation (Descending)**:
 
 ## 🔓 Open-Source GitHub Projects
 
-Cloud backup & recovery features a mature, production-proven open-source ecosystem. Projects below are sorted by **GitHub Star Count (Descending)**:
+Cloud backup & recovery features a mature, production-proven open-source ecosystem. Projects below are sorted by **GitHub Stars_Count (Descending)**:
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 |:---|:---|:---:|
 | **[Rclone](https://github.com/rclone/rclone)** 🚀 | "rsync for cloud storage" — command-line tool managing files across 70+ cloud providers (S3, B2, GCS, Azure, Drive). Supports encryption, caching, and mount. MIT. | [![Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) |
 | **[Restic](https://github.com/restic/restic)** 🔒 | Fast, secure, deduplicating backup program using AES-256 encryption. BYOS support for S3, B2, Azure Blob, SFTP, and local storage. BSD-2-Clause. | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) |
